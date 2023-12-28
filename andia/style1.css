@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+h2{
+    text-align: center;
+    color: blueviolet;
+    font-size: 35px;
+}
+
+/* ---------sandia------------  */
+.caja{
+    background: rgb(182, 254, 75);
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    background: rgb(42, 190, 49);
+    width: 250px;
+    height:150px;
+    /* border: solid red; */
+    border-radius: 290% 0px 220% 0%;
+}
+.subhoja{
+    background: red;
+    border-radius: 290% 0px 220% 0%;
+    width: 240px;
+    height:140px;
+    padding: 20%;
+    text-align: center;
+    font-size: 35px;
+    border-right: solid black 0.5rem;
+}
+
+/* ---------grid-------  */
+
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows:repeat(5, 1fr);
+}
+
+/* ------------item---  */
+.caja1{
+    grid-column: 1/6;
+    grid-row: 1/2;
+    background: rebeccapurple;
+    border: solid black;
+
+
+}
